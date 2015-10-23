@@ -1,0 +1,1 @@
+/home/hitkul/code_test/game_of_life/CMakeFiles/game_of_life.dir

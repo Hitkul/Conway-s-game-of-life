@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( game_of_life )
+find_package( OpenCV REQUIRED )
+add_executable( game_of_life game_of_life.cpp )
+target_link_libraries( game_of_life ${OpenCV_LIBS} )
